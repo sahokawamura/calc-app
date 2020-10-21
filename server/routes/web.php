@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/calcs/{value_1}/{typeofcalc}/{value_2}', 'CalcController@show');
