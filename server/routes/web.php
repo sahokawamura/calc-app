@@ -17,4 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/calcs/{value_1}/{typeofcalc}/{value_2}', 'CalcController@show');
+Route::get('/calcs/{num1}/{operator}/{num2}', 'CalcsController@show');

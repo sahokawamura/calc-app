@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>{{$value_1 . $typeofcalc . $value_2}}</h2>
+    <h1>計算アプリ</h1>
+    <h2>{{$answer}}</h2>
 </body>
 </html>
