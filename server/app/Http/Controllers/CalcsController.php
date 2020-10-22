@@ -16,6 +16,8 @@ class CalcsController extends Controller
             return view ('calc.show', ['answer' => $num1 * $num2]);
         } elseif ($operator == 'division') {
             return view ('calc.show', ['answer' => $num1 / $num2]);
+        } else {
+            return view ('calc.show', ['answer' => '計算できません']);
         }
     }
 }
